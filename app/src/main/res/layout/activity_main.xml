@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="360IMM"
+            android:id="@+id/main_textView"
+            android:textSize="55dp"
+            android:layout_gravity="center"
+            android:textColor="#bbffffff" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="50dp">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_margin="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:id="@+id/connection_btn"
+                android:layout_gravity="center_horizontal"
+                android:text="연결"
+                android:background="@drawable/btn_round_corner"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_height="35dp"
+                android:layout_width="110dp"
+                android:id="@+id/album_btn"
+                android:layout_gravity="center_horizontal"
+                android:text="갤러리"
+                android:background="@drawable/btn_round_corner"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="10dp"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="110dp"
+                android:layout_height="35dp"
+                android:id="@+id/main_btn"
+                android:layout_gravity="center_horizontal"
+                android:text="촬영"
+                android:background="@drawable/btn_round_corner"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

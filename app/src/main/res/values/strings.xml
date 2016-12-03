@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">360IMM</string>
+    <string name="response">RESPONSE</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="ffmpeg_cmd_hint">Enter command here. To run \"ffmpeg -version\" enter \"-version\"</string>
+    <string name="device_not_supported">Device not supported</string>
+    <string name="device_not_supported_message">FFmpeg is not supported on your device</string>
+    <string name="run">Run</string>
+    <string name="empty_command_toast">You cannot execute empty command</string>
+    <string name="download_image_gallery">DOWNLOAD IMAGE GALLERY</string>
+    <string name="download_video_gallery">DOWNLOAD VIDEO GALLERY</string>
+    <string name="action_delete_all">Delete All</string>
+</resources>
